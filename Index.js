@@ -18,7 +18,7 @@ function getUTCTimeAndDay() {
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     // Display the UTC time and day
-    document.getElementById('current-time').innerHTML= `${hours}:${minutes}:${seconds}`;
+    document.getElementById('current-time').innerText= `${hours}:${minutes}:${seconds}`;
     document.getElementById('current-day').innerText = `${daysOfWeek[day]}`;
 }
 
